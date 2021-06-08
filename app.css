@@ -1,5 +1,5 @@
 :root {
-  background-color: #ecf5ff;
+  background-color: #a7b1b7;
   font-size: 62.5%;
 }
 * {
@@ -7,7 +7,7 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #000000;
 }
 
 h1,
@@ -18,7 +18,7 @@ h4 {
 }
 h1 {
   font-size: 5.4rem;
-  color: #56a5eb;
+  color: #8b2942;
   margin-bottom: 5rem;
 }
 h1 > span {
@@ -74,16 +74,16 @@ h3 {
   padding: 1rem 0;
   width: 20rem;
   text-align: center;
-  border: 0.1rem solid #56a5eb;
+  border: 0.1rem solid #000000;
   margin-bottom: 1rem;
   text-decoration: none;
-  color: #56a5eb;
+  color: #005488;
   background-color: white;
 }
 
 .btn:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 84, 136, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
@@ -107,7 +107,7 @@ input {
   padding: 1.5rem;
   font-size: 1.8rem;
   border: none;
-  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.1rem 1.4rem 0 black;
 }
 input::placeholder {
   color: #aaa;
